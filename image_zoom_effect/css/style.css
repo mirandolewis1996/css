@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+
+.parent{
+	position:relative;
+}
+body{
+	background-color:#424769;
+}
+
+.child img{
+	width:400px;
+	border-radius:10px;
+	height:400px;
+	transition:1s;
+}
+.child{
+    border-radius:10px;
+    position:absolute;
+    margin:0;
+    top:100px;
+    overflow:hidden;
+    left:550px;
+
+}
+
+.child img:hover{
+	transition:1s;
+	transform:scale(2.0);
+}
